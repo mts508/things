@@ -7,4 +7,12 @@
 #include <SDL2/SDL_log.h>
 #include "GL/gl.h"
 
+typedef struct {
+	GLfloat r;
+	GLfloat g;
+	GLfloat b;
+    uint8_t visible;
+} VoxelData;
+
+
 #endif

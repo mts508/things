@@ -4,7 +4,7 @@
 #include "owl/window.hpp"
 
 
-class GameWindow : public Owl::window::Window {
+class GameWindow : public Owl::Window {
 	void on_create();
 	void draw();
 };
