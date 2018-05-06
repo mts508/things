@@ -1,7 +1,7 @@
 #ifndef GAME_WINDOW_INCLUDED
 #define GAME_WINDOW_INCLUDED
 
-#include "src/simple-window.hpp"
+#include "owl/window.hpp"
 
 
 class GameWindow : public Owl::window::Window {

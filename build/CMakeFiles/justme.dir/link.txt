@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/justme.dir/main.cpp.o CMakeFiles/justme.dir/window.cpp.o  -o justme -lGL -lSDL2 libowl.a 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/justme.dir/src/main.cpp.o CMakeFiles/justme.dir/src/window.cpp.o  -o justme -lGL -lSDL2 libowl.a 

@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/matias/projects/justme/src/owl.h
+/home/matias/projects/justme/src/owl/owl.h
 SDL2/SDL.h
 -
 SDL2/SDL_log.h
 -
 GL/gl.h
-/home/matias/projects/justme/src/GL/gl.h
+/home/matias/projects/justme/src/owl/GL/gl.h
 
-/home/matias/projects/justme/src/simple-window.cpp
+/home/matias/projects/justme/src/owl/window.cpp
 SDL2/SDL.h
 -
 SDL2/SDL_log.h
 -
-simple-window.hpp
-/home/matias/projects/justme/src/simple-window.hpp
+window.hpp
+/home/matias/projects/justme/src/owl/window.hpp
 string
 -
 
-/home/matias/projects/justme/src/simple-window.hpp
+/home/matias/projects/justme/src/owl/window.hpp
 owl.h
-/home/matias/projects/justme/src/owl.h
+/home/matias/projects/justme/src/owl/owl.h
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matias/projects/justme/src/simple-window.cpp" "/home/matias/projects/justme/build/CMakeFiles/owl.dir/src/simple-window.cpp.o"
+  "/home/matias/projects/justme/src/owl/window.cpp" "/home/matias/projects/justme/build/CMakeFiles/owl.dir/src/owl/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

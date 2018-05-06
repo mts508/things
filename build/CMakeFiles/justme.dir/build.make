@@ -57,64 +57,64 @@ include CMakeFiles/justme.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/justme.dir/flags.make
 
-CMakeFiles/justme.dir/main.cpp.o: CMakeFiles/justme.dir/flags.make
-CMakeFiles/justme.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/justme.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/justme.dir/main.cpp.o -c /home/matias/projects/justme/main.cpp
+CMakeFiles/justme.dir/src/main.cpp.o: CMakeFiles/justme.dir/flags.make
+CMakeFiles/justme.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/justme.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/justme.dir/src/main.cpp.o -c /home/matias/projects/justme/src/main.cpp
 
-CMakeFiles/justme.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/justme.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matias/projects/justme/main.cpp > CMakeFiles/justme.dir/main.cpp.i
+CMakeFiles/justme.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/justme.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matias/projects/justme/src/main.cpp > CMakeFiles/justme.dir/src/main.cpp.i
 
-CMakeFiles/justme.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/justme.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matias/projects/justme/main.cpp -o CMakeFiles/justme.dir/main.cpp.s
+CMakeFiles/justme.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/justme.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matias/projects/justme/src/main.cpp -o CMakeFiles/justme.dir/src/main.cpp.s
 
-CMakeFiles/justme.dir/main.cpp.o.requires:
+CMakeFiles/justme.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/justme.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/justme.dir/src/main.cpp.o.requires
 
-CMakeFiles/justme.dir/main.cpp.o.provides: CMakeFiles/justme.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/justme.dir/main.cpp.o.provides
+CMakeFiles/justme.dir/src/main.cpp.o.provides: CMakeFiles/justme.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/justme.dir/src/main.cpp.o.provides
 
-CMakeFiles/justme.dir/main.cpp.o.provides.build: CMakeFiles/justme.dir/main.cpp.o
+CMakeFiles/justme.dir/src/main.cpp.o.provides.build: CMakeFiles/justme.dir/src/main.cpp.o
 
 
-CMakeFiles/justme.dir/window.cpp.o: CMakeFiles/justme.dir/flags.make
-CMakeFiles/justme.dir/window.cpp.o: ../window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/justme.dir/window.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/justme.dir/window.cpp.o -c /home/matias/projects/justme/window.cpp
+CMakeFiles/justme.dir/src/window.cpp.o: CMakeFiles/justme.dir/flags.make
+CMakeFiles/justme.dir/src/window.cpp.o: ../src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/justme.dir/src/window.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/justme.dir/src/window.cpp.o -c /home/matias/projects/justme/src/window.cpp
 
-CMakeFiles/justme.dir/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/justme.dir/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matias/projects/justme/window.cpp > CMakeFiles/justme.dir/window.cpp.i
+CMakeFiles/justme.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/justme.dir/src/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matias/projects/justme/src/window.cpp > CMakeFiles/justme.dir/src/window.cpp.i
 
-CMakeFiles/justme.dir/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/justme.dir/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matias/projects/justme/window.cpp -o CMakeFiles/justme.dir/window.cpp.s
+CMakeFiles/justme.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/justme.dir/src/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matias/projects/justme/src/window.cpp -o CMakeFiles/justme.dir/src/window.cpp.s
 
-CMakeFiles/justme.dir/window.cpp.o.requires:
+CMakeFiles/justme.dir/src/window.cpp.o.requires:
 
-.PHONY : CMakeFiles/justme.dir/window.cpp.o.requires
+.PHONY : CMakeFiles/justme.dir/src/window.cpp.o.requires
 
-CMakeFiles/justme.dir/window.cpp.o.provides: CMakeFiles/justme.dir/window.cpp.o.requires
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/window.cpp.o.provides.build
-.PHONY : CMakeFiles/justme.dir/window.cpp.o.provides
+CMakeFiles/justme.dir/src/window.cpp.o.provides: CMakeFiles/justme.dir/src/window.cpp.o.requires
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/window.cpp.o.provides.build
+.PHONY : CMakeFiles/justme.dir/src/window.cpp.o.provides
 
-CMakeFiles/justme.dir/window.cpp.o.provides.build: CMakeFiles/justme.dir/window.cpp.o
+CMakeFiles/justme.dir/src/window.cpp.o.provides.build: CMakeFiles/justme.dir/src/window.cpp.o
 
 
 # Object files for target justme
 justme_OBJECTS = \
-"CMakeFiles/justme.dir/main.cpp.o" \
-"CMakeFiles/justme.dir/window.cpp.o"
+"CMakeFiles/justme.dir/src/main.cpp.o" \
+"CMakeFiles/justme.dir/src/window.cpp.o"
 
 # External object files for target justme
 justme_EXTERNAL_OBJECTS =
 
-justme: CMakeFiles/justme.dir/main.cpp.o
-justme: CMakeFiles/justme.dir/window.cpp.o
+justme: CMakeFiles/justme.dir/src/main.cpp.o
+justme: CMakeFiles/justme.dir/src/window.cpp.o
 justme: CMakeFiles/justme.dir/build.make
 justme: libowl.a
 justme: CMakeFiles/justme.dir/link.txt
@@ -126,8 +126,8 @@ CMakeFiles/justme.dir/build: justme
 
 .PHONY : CMakeFiles/justme.dir/build
 
-CMakeFiles/justme.dir/requires: CMakeFiles/justme.dir/main.cpp.o.requires
-CMakeFiles/justme.dir/requires: CMakeFiles/justme.dir/window.cpp.o.requires
+CMakeFiles/justme.dir/requires: CMakeFiles/justme.dir/src/main.cpp.o.requires
+CMakeFiles/justme.dir/requires: CMakeFiles/justme.dir/src/window.cpp.o.requires
 
 .PHONY : CMakeFiles/justme.dir/requires
 

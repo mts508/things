@@ -57,38 +57,38 @@ include CMakeFiles/owl.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/owl.dir/flags.make
 
-CMakeFiles/owl.dir/src/simple-window.cpp.o: CMakeFiles/owl.dir/flags.make
-CMakeFiles/owl.dir/src/simple-window.cpp.o: ../src/simple-window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/owl.dir/src/simple-window.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/owl.dir/src/simple-window.cpp.o -c /home/matias/projects/justme/src/simple-window.cpp
+CMakeFiles/owl.dir/src/owl/window.cpp.o: CMakeFiles/owl.dir/flags.make
+CMakeFiles/owl.dir/src/owl/window.cpp.o: ../src/owl/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/owl.dir/src/owl/window.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/owl.dir/src/owl/window.cpp.o -c /home/matias/projects/justme/src/owl/window.cpp
 
-CMakeFiles/owl.dir/src/simple-window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/owl.dir/src/simple-window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matias/projects/justme/src/simple-window.cpp > CMakeFiles/owl.dir/src/simple-window.cpp.i
+CMakeFiles/owl.dir/src/owl/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/owl.dir/src/owl/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matias/projects/justme/src/owl/window.cpp > CMakeFiles/owl.dir/src/owl/window.cpp.i
 
-CMakeFiles/owl.dir/src/simple-window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/owl.dir/src/simple-window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matias/projects/justme/src/simple-window.cpp -o CMakeFiles/owl.dir/src/simple-window.cpp.s
+CMakeFiles/owl.dir/src/owl/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/owl.dir/src/owl/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matias/projects/justme/src/owl/window.cpp -o CMakeFiles/owl.dir/src/owl/window.cpp.s
 
-CMakeFiles/owl.dir/src/simple-window.cpp.o.requires:
+CMakeFiles/owl.dir/src/owl/window.cpp.o.requires:
 
-.PHONY : CMakeFiles/owl.dir/src/simple-window.cpp.o.requires
+.PHONY : CMakeFiles/owl.dir/src/owl/window.cpp.o.requires
 
-CMakeFiles/owl.dir/src/simple-window.cpp.o.provides: CMakeFiles/owl.dir/src/simple-window.cpp.o.requires
-	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/simple-window.cpp.o.provides.build
-.PHONY : CMakeFiles/owl.dir/src/simple-window.cpp.o.provides
+CMakeFiles/owl.dir/src/owl/window.cpp.o.provides: CMakeFiles/owl.dir/src/owl/window.cpp.o.requires
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/window.cpp.o.provides.build
+.PHONY : CMakeFiles/owl.dir/src/owl/window.cpp.o.provides
 
-CMakeFiles/owl.dir/src/simple-window.cpp.o.provides.build: CMakeFiles/owl.dir/src/simple-window.cpp.o
+CMakeFiles/owl.dir/src/owl/window.cpp.o.provides.build: CMakeFiles/owl.dir/src/owl/window.cpp.o
 
 
 # Object files for target owl
 owl_OBJECTS = \
-"CMakeFiles/owl.dir/src/simple-window.cpp.o"
+"CMakeFiles/owl.dir/src/owl/window.cpp.o"
 
 # External object files for target owl
 owl_EXTERNAL_OBJECTS =
 
-libowl.a: CMakeFiles/owl.dir/src/simple-window.cpp.o
+libowl.a: CMakeFiles/owl.dir/src/owl/window.cpp.o
 libowl.a: CMakeFiles/owl.dir/build.make
 libowl.a: CMakeFiles/owl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matias/projects/justme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libowl.a"
@@ -100,7 +100,7 @@ CMakeFiles/owl.dir/build: libowl.a
 
 .PHONY : CMakeFiles/owl.dir/build
 
-CMakeFiles/owl.dir/requires: CMakeFiles/owl.dir/src/simple-window.cpp.o.requires
+CMakeFiles/owl.dir/requires: CMakeFiles/owl.dir/src/owl/window.cpp.o.requires
 
 .PHONY : CMakeFiles/owl.dir/requires
 

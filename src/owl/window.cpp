@@ -1,6 +1,6 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_log.h>
-#include "simple-window.hpp"
+#include "window.hpp"
 #include <string>
 
 Owl::window::Window::Window() {

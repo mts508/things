@@ -182,86 +182,86 @@ owl/fast:
 	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/build
 .PHONY : owl/fast
 
-main.o: main.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-src/simple-window.o: src/simple-window.cpp.o
-
-.PHONY : src/simple-window.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/simple-window.cpp.o:
-	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/simple-window.cpp.o
-.PHONY : src/simple-window.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/simple-window.i: src/simple-window.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : src/simple-window.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/simple-window.cpp.i:
-	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/simple-window.cpp.i
-.PHONY : src/simple-window.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/simple-window.s: src/simple-window.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : src/simple-window.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/simple-window.cpp.s:
-	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/simple-window.cpp.s
-.PHONY : src/simple-window.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-window.o: window.cpp.o
+src/owl/window.o: src/owl/window.cpp.o
 
-.PHONY : window.o
+.PHONY : src/owl/window.o
 
 # target to build an object file
-window.cpp.o:
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/window.cpp.o
-.PHONY : window.cpp.o
+src/owl/window.cpp.o:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/window.cpp.o
+.PHONY : src/owl/window.cpp.o
 
-window.i: window.cpp.i
+src/owl/window.i: src/owl/window.cpp.i
 
-.PHONY : window.i
+.PHONY : src/owl/window.i
 
 # target to preprocess a source file
-window.cpp.i:
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/window.cpp.i
-.PHONY : window.cpp.i
+src/owl/window.cpp.i:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/window.cpp.i
+.PHONY : src/owl/window.cpp.i
 
-window.s: window.cpp.s
+src/owl/window.s: src/owl/window.cpp.s
 
-.PHONY : window.s
+.PHONY : src/owl/window.s
 
 # target to generate assembly for a file
-window.cpp.s:
-	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/window.cpp.s
-.PHONY : window.cpp.s
+src/owl/window.cpp.s:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/window.cpp.s
+.PHONY : src/owl/window.cpp.s
+
+src/window.o: src/window.cpp.o
+
+.PHONY : src/window.o
+
+# target to build an object file
+src/window.cpp.o:
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/window.cpp.o
+.PHONY : src/window.cpp.o
+
+src/window.i: src/window.cpp.i
+
+.PHONY : src/window.i
+
+# target to preprocess a source file
+src/window.cpp.i:
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/window.cpp.i
+.PHONY : src/window.cpp.i
+
+src/window.s: src/window.cpp.s
+
+.PHONY : src/window.s
+
+# target to generate assembly for a file
+src/window.cpp.s:
+	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/window.cpp.s
+.PHONY : src/window.cpp.s
 
 # Help Target
 help:
@@ -277,15 +277,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... src/simple-window.o"
-	@echo "... src/simple-window.i"
-	@echo "... src/simple-window.s"
-	@echo "... window.o"
-	@echo "... window.i"
-	@echo "... window.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/owl/window.o"
+	@echo "... src/owl/window.i"
+	@echo "... src/owl/window.s"
+	@echo "... src/window.o"
+	@echo "... src/window.i"
+	@echo "... src/window.s"
 .PHONY : help
 
 

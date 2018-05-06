@@ -1,17 +1,17 @@
 [
 {
   "directory": "/home/matias/projects/justme/build",
-  "command": "/usr/bin/c++    -g   -o CMakeFiles/justme.dir/main.cpp.o -c /home/matias/projects/justme/main.cpp",
-  "file": "/home/matias/projects/justme/main.cpp"
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/justme.dir/src/main.cpp.o -c /home/matias/projects/justme/src/main.cpp",
+  "file": "/home/matias/projects/justme/src/main.cpp"
 },
 {
   "directory": "/home/matias/projects/justme/build",
-  "command": "/usr/bin/c++    -g   -o CMakeFiles/justme.dir/window.cpp.o -c /home/matias/projects/justme/window.cpp",
-  "file": "/home/matias/projects/justme/window.cpp"
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/justme.dir/src/window.cpp.o -c /home/matias/projects/justme/src/window.cpp",
+  "file": "/home/matias/projects/justme/src/window.cpp"
 },
 {
   "directory": "/home/matias/projects/justme/build",
-  "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/simple-window.cpp.o -c /home/matias/projects/justme/src/simple-window.cpp",
-  "file": "/home/matias/projects/justme/src/simple-window.cpp"
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/owl/window.cpp.o -c /home/matias/projects/justme/src/owl/window.cpp",
+  "file": "/home/matias/projects/justme/src/owl/window.cpp"
 }
 ]

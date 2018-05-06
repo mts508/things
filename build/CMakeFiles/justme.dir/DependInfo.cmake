@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matias/projects/justme/main.cpp" "/home/matias/projects/justme/build/CMakeFiles/justme.dir/main.cpp.o"
-  "/home/matias/projects/justme/window.cpp" "/home/matias/projects/justme/build/CMakeFiles/justme.dir/window.cpp.o"
+  "/home/matias/projects/justme/src/main.cpp" "/home/matias/projects/justme/build/CMakeFiles/justme.dir/src/main.cpp.o"
+  "/home/matias/projects/justme/src/window.cpp" "/home/matias/projects/justme/build/CMakeFiles/justme.dir/src/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

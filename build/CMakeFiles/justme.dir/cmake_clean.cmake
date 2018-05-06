@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/justme.dir/main.cpp.o"
-  "CMakeFiles/justme.dir/window.cpp.o"
+  "CMakeFiles/justme.dir/src/main.cpp.o"
+  "CMakeFiles/justme.dir/src/window.cpp.o"
   "justme.pdb"
   "justme"
 )
