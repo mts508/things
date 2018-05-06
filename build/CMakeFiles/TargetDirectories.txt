@@ -1,0 +1,8 @@
+/home/matias/projects/justme/build/CMakeFiles/install/strip.dir
+/home/matias/projects/justme/build/CMakeFiles/install/local.dir
+/home/matias/projects/justme/build/CMakeFiles/justme.dir
+/home/matias/projects/justme/build/CMakeFiles/list_install_components.dir
+/home/matias/projects/justme/build/CMakeFiles/owl.dir
+/home/matias/projects/justme/build/CMakeFiles/edit_cache.dir
+/home/matias/projects/justme/build/CMakeFiles/rebuild_cache.dir
+/home/matias/projects/justme/build/CMakeFiles/install.dir

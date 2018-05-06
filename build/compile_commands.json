@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/matias/projects/justme/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/justme.dir/main.cpp.o -c /home/matias/projects/justme/main.cpp",
+  "file": "/home/matias/projects/justme/main.cpp"
+},
+{
+  "directory": "/home/matias/projects/justme/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/justme.dir/window.cpp.o -c /home/matias/projects/justme/window.cpp",
+  "file": "/home/matias/projects/justme/window.cpp"
+},
+{
+  "directory": "/home/matias/projects/justme/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/simple-window.cpp.o -c /home/matias/projects/justme/src/simple-window.cpp",
+  "file": "/home/matias/projects/justme/src/simple-window.cpp"
+}
+]

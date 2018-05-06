@@ -1,0 +1,2 @@
+/usr/bin/ar qc libowl.a  CMakeFiles/owl.dir/src/simple-window.cpp.o
+/usr/bin/ranlib libowl.a

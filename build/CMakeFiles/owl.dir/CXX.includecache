@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matias/projects/justme/src/owl.h
+SDL2/SDL.h
+-
+SDL2/SDL_log.h
+-
+GL/gl.h
+/home/matias/projects/justme/src/GL/gl.h
+
+/home/matias/projects/justme/src/simple-window.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_log.h
+-
+simple-window.hpp
+/home/matias/projects/justme/src/simple-window.hpp
+string
+-
+
+/home/matias/projects/justme/src/simple-window.hpp
+owl.h
+/home/matias/projects/justme/src/owl.h
+
