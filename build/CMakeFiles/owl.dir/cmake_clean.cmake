@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/owl.dir/src/owl/scene.cpp.o"
+  "CMakeFiles/owl.dir/src/owl/volume.cpp.o"
   "CMakeFiles/owl.dir/src/owl/window.cpp.o"
+  "CMakeFiles/owl.dir/src/owl/world.cpp.o"
   "libowl.pdb"
   "libowl.a"
 )

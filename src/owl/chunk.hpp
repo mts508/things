@@ -13,6 +13,10 @@ namespace Owl {
     public:
         Chunk();
         Chunk(int x, int y);
+        void draw();
+        int getX();
+        int getY();
+        void setPosition(int x, int y);
     };
 }
 

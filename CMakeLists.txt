@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.6)
 project(justme)
 
-add_library(owl src/owl/window.cpp)
+file(GLOB owl_src "src/owl/*.cpp")
+add_library(owl ${owl_src})
 
 add_executable(justme src/main.cpp src/window.cpp)
 

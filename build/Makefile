@@ -209,6 +209,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/justme.dir/build.make CMakeFiles/justme.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/owl/scene.o: src/owl/scene.cpp.o
+
+.PHONY : src/owl/scene.o
+
+# target to build an object file
+src/owl/scene.cpp.o:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/scene.cpp.o
+.PHONY : src/owl/scene.cpp.o
+
+src/owl/scene.i: src/owl/scene.cpp.i
+
+.PHONY : src/owl/scene.i
+
+# target to preprocess a source file
+src/owl/scene.cpp.i:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/scene.cpp.i
+.PHONY : src/owl/scene.cpp.i
+
+src/owl/scene.s: src/owl/scene.cpp.s
+
+.PHONY : src/owl/scene.s
+
+# target to generate assembly for a file
+src/owl/scene.cpp.s:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/scene.cpp.s
+.PHONY : src/owl/scene.cpp.s
+
+src/owl/volume.o: src/owl/volume.cpp.o
+
+.PHONY : src/owl/volume.o
+
+# target to build an object file
+src/owl/volume.cpp.o:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/volume.cpp.o
+.PHONY : src/owl/volume.cpp.o
+
+src/owl/volume.i: src/owl/volume.cpp.i
+
+.PHONY : src/owl/volume.i
+
+# target to preprocess a source file
+src/owl/volume.cpp.i:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/volume.cpp.i
+.PHONY : src/owl/volume.cpp.i
+
+src/owl/volume.s: src/owl/volume.cpp.s
+
+.PHONY : src/owl/volume.s
+
+# target to generate assembly for a file
+src/owl/volume.cpp.s:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/volume.cpp.s
+.PHONY : src/owl/volume.cpp.s
+
 src/owl/window.o: src/owl/window.cpp.o
 
 .PHONY : src/owl/window.o
@@ -235,6 +289,33 @@ src/owl/window.s: src/owl/window.cpp.s
 src/owl/window.cpp.s:
 	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/window.cpp.s
 .PHONY : src/owl/window.cpp.s
+
+src/owl/world.o: src/owl/world.cpp.o
+
+.PHONY : src/owl/world.o
+
+# target to build an object file
+src/owl/world.cpp.o:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/world.cpp.o
+.PHONY : src/owl/world.cpp.o
+
+src/owl/world.i: src/owl/world.cpp.i
+
+.PHONY : src/owl/world.i
+
+# target to preprocess a source file
+src/owl/world.cpp.i:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/world.cpp.i
+.PHONY : src/owl/world.cpp.i
+
+src/owl/world.s: src/owl/world.cpp.s
+
+.PHONY : src/owl/world.s
+
+# target to generate assembly for a file
+src/owl/world.cpp.s:
+	$(MAKE) -f CMakeFiles/owl.dir/build.make CMakeFiles/owl.dir/src/owl/world.cpp.s
+.PHONY : src/owl/world.cpp.s
 
 src/window.o: src/window.cpp.o
 
@@ -280,9 +361,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/owl/scene.o"
+	@echo "... src/owl/scene.i"
+	@echo "... src/owl/scene.s"
+	@echo "... src/owl/volume.o"
+	@echo "... src/owl/volume.i"
+	@echo "... src/owl/volume.s"
 	@echo "... src/owl/window.o"
 	@echo "... src/owl/window.i"
 	@echo "... src/owl/window.s"
+	@echo "... src/owl/world.o"
+	@echo "... src/owl/world.i"
+	@echo "... src/owl/world.s"
 	@echo "... src/window.o"
 	@echo "... src/window.i"
 	@echo "... src/window.s"

@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/matias/projects/justme/src/owl/scene.cpp" "/home/matias/projects/justme/build/CMakeFiles/owl.dir/src/owl/scene.cpp.o"
+  "/home/matias/projects/justme/src/owl/volume.cpp" "/home/matias/projects/justme/build/CMakeFiles/owl.dir/src/owl/volume.cpp.o"
   "/home/matias/projects/justme/src/owl/window.cpp" "/home/matias/projects/justme/build/CMakeFiles/owl.dir/src/owl/window.cpp.o"
+  "/home/matias/projects/justme/src/owl/world.cpp" "/home/matias/projects/justme/build/CMakeFiles/owl.dir/src/owl/world.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

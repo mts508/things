@@ -11,7 +11,22 @@
 },
 {
   "directory": "/home/matias/projects/justme/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/owl/scene.cpp.o -c /home/matias/projects/justme/src/owl/scene.cpp",
+  "file": "/home/matias/projects/justme/src/owl/scene.cpp"
+},
+{
+  "directory": "/home/matias/projects/justme/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/owl/volume.cpp.o -c /home/matias/projects/justme/src/owl/volume.cpp",
+  "file": "/home/matias/projects/justme/src/owl/volume.cpp"
+},
+{
+  "directory": "/home/matias/projects/justme/build",
   "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/owl/window.cpp.o -c /home/matias/projects/justme/src/owl/window.cpp",
   "file": "/home/matias/projects/justme/src/owl/window.cpp"
+},
+{
+  "directory": "/home/matias/projects/justme/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/owl.dir/src/owl/world.cpp.o -c /home/matias/projects/justme/src/owl/world.cpp",
+  "file": "/home/matias/projects/justme/src/owl/world.cpp"
 }
 ]
