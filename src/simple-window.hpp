@@ -13,13 +13,26 @@ namespace Owl {
 			bool running;
 		public:
 			Window();
-			SDL_Window* getWindow();
-			void run();
+            
+            // Functionality
+            void close();
+            virtual void draw();
 			void handle_events();
+            void run();
+            
+            // Getters
+            unsigned int getHeight();
+            unsigned int getWidth();
+            SDL_Window* getWindow();
+            
+			// Events
 			virtual void on_create() {}
 			virtual void on_keyup(SDL_Keycode key) { if( key == SDLK_ESCAPE ) close(); }
-			virtual void draw();
-			void close();
+			
+			// Setters
+            void setHeight(unsigned int height);
+            void setSize(unsigned int width, unsigned int height);
+            void setWidth(unsigned int width);
 		};
 
 		void showAlert(const char* title, const char* message, SDL_Window* window_);
