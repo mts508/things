@@ -1,14 +1,14 @@
 # Window Class
 
-## Methods
+### Methods
 
-### Window()
+> Window()
 Creates a new window with a default size
 
-### Window(unsigned int width, unsigned int height)
+> Window(unsigned int width, unsigned int height)
 Creates a new window with the given width and height values
 
-### unsigned int **getHeight()**
+> unsigned int **getHeight()**
 Returns the current height of the window
 
 ### getWidth()
